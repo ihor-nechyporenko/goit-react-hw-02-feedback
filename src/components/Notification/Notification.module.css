@@ -1,0 +1,6 @@
+@value font from '../../variables.module.css';
+
+.message {
+  font-family: font;
+  font-size: 26px;
+}

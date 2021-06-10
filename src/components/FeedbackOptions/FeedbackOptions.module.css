@@ -1,0 +1,30 @@
+@value font, accent-color, hover-color, btn-text-color from '../../variables.module.css';
+
+.button {
+  width: 100px;
+  height: 30px;
+
+  font-family: font;
+  font-size: 16px;
+
+  border: none;
+  border-radius: 5px;
+  color: btn-text-color;
+  background-color: accent-color;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: hover-color;
+  transform: scale(1.03);
+}
+
+.button:active {
+  color: accent-color;
+  background-color: btn-text-color;
+  border: 1px solid accent-color;
+}
+
+.button:not(:last-of-type) {
+  margin-right: 10px;
+}

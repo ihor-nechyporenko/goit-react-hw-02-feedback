@@ -1,0 +1,12 @@
+@value font from '../../variables.module.css';
+
+.section {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: font;
+  font-size: 32px;
+}
